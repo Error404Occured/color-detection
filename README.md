@@ -11,6 +11,7 @@ This project includes two Python scripts for color detection:
 - [Usage](#usage)
   - [Color Detection from Image](#color-detection-from-image)
   - [Color Detection from Webcam](#color-detection-from-webcam)
+- [Instructions](#instructions)
 
 ## Prerequisites
 
@@ -42,3 +43,19 @@ pip install opencv-python pandas numpy
    ```bash
    python color_detection_image.py
    ```
+
+### Color Detection from Webcam
+1. Ensure colors.csv is in the same directory as color_detection_webcam.py.
+
+2. Run the script:
+
+```bash
+python color_detection_webcam.py
+```
+
+## Instructions:
+
+1. A window will open displaying the live webcam feed.
+2. Double-click on any part of the video feed to see the RGB values and the closest color name.
+3. The detected color name and RGB values will be displayed as text on the video feed.
+4. Press the 'ESC' key to exit the program.
